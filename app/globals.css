@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.layout {
+    width: 100%;
+    height: 100vh;
+
+    display: grid;
+    grid:
+        "sidebar body side-panel" 1fr
+        / 5% 1fr 25%;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+.body {
+    grid-area: body;
+}
+.side-panel {
+    grid-area: side-panel;
+}
