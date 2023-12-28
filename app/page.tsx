@@ -1,14 +1,9 @@
-import Logo from "@/components/navbar/Logo";
+import BalanceStatistic from "@/components/content/BalanceStatistic";
+import BuyList from "@/components/content/BuyList";
+import CreditCard from "@/components/content/CreditCard";
+import QuickChat from "@/components/content/QuickChat";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Search, ChevronDown } from "lucide-react";
-import Image from "next/image";
+import { Search } from "lucide-react";
 
 export default function Home() {
     return (
@@ -23,36 +18,12 @@ export default function Home() {
                 </Button>
             </header>
             <div className="flex gap-4 max-w-full">
-                <Card className="flex-1">
-                    <div className="flex max-w-full p-4 items-center">
-                        <CardTitle className="flex-1">
-                            Balance Statistic
-                        </CardTitle>
-                        <DropdownMenu>
-                            <DropdownMenuTrigger asChild>
-                                <Button
-                                    variant="outline"
-                                    className="flex items-center gap-4"
-                                >
-                                    Filter
-                                    <ChevronDown size="16" />
-                                </Button>
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent>
-                                <DropdownMenuItem>Month</DropdownMenuItem>
-                                <DropdownMenuItem>Week</DropdownMenuItem>
-                                <DropdownMenuItem>Day</DropdownMenuItem>
-                            </DropdownMenuContent>
-                        </DropdownMenu>
-                    </div>
-                </Card>
-                <Card className="w-[45%] bg-[#545DE6]">
-                    <CardHeader>
-                        <CardTitle>
-                            <Logo />
-                        </CardTitle>
-                    </CardHeader>
-                </Card>
+                <BalanceStatistic />
+                <CreditCard />
+            </div>
+            <div className="flex gap-4 max-w-full">
+                <BuyList />
+                <QuickChat />
             </div>
         </div>
     );
