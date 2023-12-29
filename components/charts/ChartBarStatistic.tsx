@@ -31,7 +31,7 @@ const ChartBarStatistic = () => {
         },
     ];
     return (
-        <BarChart data={data} width={400} height={200}>
+        <BarChart data={data} width={400} height={150}>
             <XAxis dataKey="month" />
             <YAxis />
             <Tooltip />
