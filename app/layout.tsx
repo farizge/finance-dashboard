@@ -20,7 +20,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={lato.className}>
                 <div className="layout">
-                    <nav className="sidebar">
+                    <nav className="sidebar ">
                         <Navigation />
                     </nav>
                     <main className="body bg-[#F7F6FC]">{children}</main>

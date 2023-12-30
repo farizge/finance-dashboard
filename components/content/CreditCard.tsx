@@ -5,7 +5,7 @@ import illustration from "@/assets/illustration.png";
 
 const CreditCard = () => {
     return (
-        <Card className="w-[40%] bg-[#545DE6] px-4 pb-4 flex flex-col justify-between">
+        <Card className="w-[40%] bg-[#545DE6]  px-4 pb-4 flex flex-col justify-between">
             <div className="flex justify-between items-center">
                 <div className="font-bold text-3xl text-white">S.</div>
                 <Image src={logoVisa} alt="logo-visa" width={70} />
@@ -15,11 +15,11 @@ const CreditCard = () => {
                     src={illustration}
                     alt="illustration"
                     width={250}
-                    className="absolute"
+                    className="absolute "
                 />
             </div>
             <div className="flex justify-between items-end">
-                <div className="text-white font-medium text-xl">
+                <div className="text-white font-medium text-xl z-10">
                     <p>**** 9879</p>
                     <p>John Demon</p>
                 </div>

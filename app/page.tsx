@@ -1,7 +1,9 @@
+import Analytics from "@/components/content/Analytics/Analytics";
 import BalanceStatistic from "@/components/content/BalanceStatistic";
 import BuyList from "@/components/content/BuyList/BuyList";
 import CreditCard from "@/components/content/CreditCard";
 import QuickChat from "@/components/content/QuickChat";
+import Transaction from "@/components/content/Transaction/Transaction";
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 
@@ -24,6 +26,10 @@ export default function Home() {
             <div className="flex gap-4 max-w-full">
                 <BuyList />
                 <QuickChat />
+            </div>
+            <div className="flex gap-4 max-w-full">
+                <Transaction />
+                <Analytics />
             </div>
         </div>
     );
