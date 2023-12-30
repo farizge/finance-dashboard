@@ -20,11 +20,11 @@ export default function RootLayout({
         <html lang="en">
             <body className={lato.className}>
                 <div className="layout">
-                    <nav className="sidebar ">
+                    <nav className="sidebar fixed left-2">
                         <Navigation />
                     </nav>
                     <main className="body bg-[#F7F6FC]">{children}</main>
-                    <aside className="side-panel">
+                    <aside className="side-panel fixed right-2">
                         <SidePanel />
                     </aside>
                 </div>

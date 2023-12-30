@@ -14,7 +14,7 @@ import ChartBarStatistic from "@/components/charts/ChartBarStatistic";
 const BalanceStatistic = () => {
     return (
         <Card className="flex-1">
-            <div className="flex max-w-full p-4 items-center">
+            <div className="flex max-w-full items-center">
                 <CardTitle className="flex-1">Balance Statistic</CardTitle>
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
