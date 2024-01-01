@@ -1,8 +1,8 @@
 import Analytics from "@/components/content/Analytics/Analytics";
-import BalanceStatistic from "@/components/content/BalanceStatistic";
+import BalanceStatistic from "@/components/content/BalanceStatistic/BalanceStatistic";
 import BuyList from "@/components/content/BuyList/BuyList";
-import CreditCard from "@/components/content/CreditCard";
-import QuickChat from "@/components/content/QuickChat";
+import CreditCard from "@/components/content/CreditCard/CreditCard";
+import QuickChat from "@/components/content/QuickChat/QuickChat";
 import Transaction from "@/components/content/Transaction/Transaction";
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";

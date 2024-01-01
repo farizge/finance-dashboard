@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Card, CardHeader, CardTitle } from "../ui/card";
+import { Card } from "@/components/ui/card";
 import logoVisa from "@/assets/visa.svg";
 import illustration from "@/assets/illustration.png";
 

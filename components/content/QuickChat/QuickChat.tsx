@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Input } from "@/components/ui/input";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 import { Send } from "lucide-react";
 
 const QuickChat = () => {
