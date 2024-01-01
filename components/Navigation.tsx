@@ -13,7 +13,7 @@ const Navigation = () => {
             <Menu />
             <div className="flex flex-col items-center gap-4">
                 <Avatar>
-                    <AvatarImage src="https://i.pravatar.cc/300" />
+                    <AvatarImage src="https://i.seadn.io/s/raw/files/cdae90961393621dacfc520bcfc5e744.png?auto=format&dpr=1&w=1000" />
 
                     <AvatarFallback>JD</AvatarFallback>
                 </Avatar>
