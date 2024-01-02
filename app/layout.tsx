@@ -3,6 +3,7 @@ import { Lato } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import SidePanel from "@/components/SidePanel";
+import { Toaster } from "@/components/ui/sonner";
 
 const lato = Lato({ weight: ["300", "400", "700"], preload: false });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
                     <aside className="side-panel fixed right-2">
                         <SidePanel />
                     </aside>
+                    <Toaster position="top-center" />
                 </div>
             </body>
         </html>
