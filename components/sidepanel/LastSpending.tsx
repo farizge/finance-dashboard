@@ -15,8 +15,8 @@ const LastSpending = () => {
                     <Image
                         src={olshop}
                         alt="online-shop"
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
                     />
                     <div>
                         <p className="text-sm font-semibold">Online Shopping</p>
@@ -29,8 +29,8 @@ const LastSpending = () => {
                     <Image
                         src={hospital}
                         alt="online-shop"
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
                     />
                     <div>
                         <p className="text-sm font-semibold">
@@ -45,8 +45,8 @@ const LastSpending = () => {
                     <Image
                         src={tickets}
                         alt="online-shop"
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
                     />
                     <div>
                         <p className="text-sm font-semibold">Tickets</p>

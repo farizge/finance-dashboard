@@ -6,7 +6,7 @@ const GoToPremium = () => {
     return (
         <Card className="flex flex-col gap-4">
             <CardTitle className="text-center">Go To Premium</CardTitle>
-            <Image src={diamond} alt="diamond" width={70} />
+            <Image src={diamond} alt="diamond" width={60} />
             <div>
                 <p className="font-semibold leading-none">
                     Need more features?

@@ -1,15 +1,8 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Transaction } from "@/typing";
 import { MoreVertical } from "lucide-react";
 
-type transactionList = {
-    id: string;
-    name: string;
-    amount: string;
-    date: string;
-    avatar: string;
-};
-
-const TransactionList = ({ ...props }: transactionList) => {
+const TransactionList = ({ ...props }: Transaction) => {
     return (
         <div className="flex justify-between items-center border-b border-zinc-300 p-2">
             <div className="flex gap-2 items-center flex-1">
@@ -18,11 +11,13 @@ const TransactionList = ({ ...props }: transactionList) => {
                     <AvatarFallback>UT</AvatarFallback>
                 </Avatar>
                 <div>
-                    <p className="text-sm font-semibold">{props.name}</p>
-                    <p className="text-xs">{props.date}</p>
+                    <p className="text-sm font-semibold">{props.username}</p>
+                    <p className="text-xs">
+                        {props.transaction_date?.slice(0, 10)}
+                    </p>
                 </div>
             </div>
-            <p className="font-bold mr-4">{props.amount}</p>
+            <p className="font-bold mr-4 text-[#515BE6]">${props.amount}</p>
             <MoreVertical size="20" />
         </div>
     );

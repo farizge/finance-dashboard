@@ -5,7 +5,7 @@ import { Plus } from "lucide-react";
 import ListItem from "./ListItem";
 import AddItem from "./AddItem";
 import { Item } from "@/typing";
-import { addItem, getData } from "@/actions/serverActions";
+import { addItem, getData } from "@/actions/buyItem";
 import { Input } from "@/components/ui/input";
 import {
     DropdownMenu,

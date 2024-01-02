@@ -1,6 +1,6 @@
 "use client";
 
-import { revalidateData } from "@/actions/serverActions";
+import { revalidateData } from "@/actions/buyItem";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 
