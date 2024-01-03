@@ -21,7 +21,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={lato.className}>
                 <div className="layout">
-                    <nav className="sidebar fixed left-2">
+                    <nav className="sidebar fixed left-3">
                         <Navigation />
                     </nav>
                     <main className="body bg-[#F7F6FC]">{children}</main>

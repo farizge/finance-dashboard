@@ -31,13 +31,15 @@ const ChartBarStatistic = () => {
         },
     ];
     return (
-        <BarChart data={data} width={400} height={150}>
-            <XAxis dataKey="month" className="text-sm font-semibold" />
-            <YAxis className="text-sm font-semibold" />
-            <Tooltip />
-            <Bar dataKey="income" fill="#545DE6" />
-            <Bar dataKey="expense" fill="#C6CAFF" />
-        </BarChart>
+        <>
+            <BarChart data={data} width={400} height={150}>
+                <XAxis dataKey="month" className="text-sm font-semibold" />
+                <YAxis className="text-sm font-semibold" />
+                <Bar dataKey="income" fill="#545DE6" />
+                <Bar dataKey="expense" fill="#C6CAFF" />
+                <Tooltip />
+            </BarChart>
+        </>
     );
 };
 

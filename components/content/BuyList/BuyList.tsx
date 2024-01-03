@@ -27,7 +27,11 @@ const BuyList = async () => {
                         </Button>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent className="p-4">
-                        <form action={addItem} className="flex flex-col gap-4">
+                        <form
+                            id="add-item"
+                            action={addItem}
+                            className="flex flex-col gap-4"
+                        >
                             <Input
                                 id="itemName"
                                 placeholder="Add your item"
