@@ -1,6 +1,6 @@
-import ExpenseAndIncome from "./sidepanel/ExpenseAndIncome";
-import GoToPremium from "./sidepanel/GoToPremium";
-import LastSpending from "./sidepanel/LastSpending";
+import ExpenseAndIncome from "./ExpenseAndIncome";
+import GoToPremium from "./GoToPremium";
+import LastSpending from "./LastSpending";
 
 const SidePanel = () => {
     return (

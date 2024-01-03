@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
-import Navigation from "@/components/Navigation";
-import SidePanel from "@/components/SidePanel";
+import Navigation from "@/components/navbar/Navigation";
+import SidePanel from "@/components/sidepanel/SidePanel";
 import { Toaster } from "@/components/ui/sonner";
 
 const lato = Lato({ weight: ["300", "400", "700"], preload: false });
